@@ -61,7 +61,7 @@ func HasAnySellersFromCity(sellers []Seller, city string) {
 		break
 	}
 
-	allSellers := make([]Seller, len(sellers))
+	allSellers :=  make([]Seller, len(sellers))
 
 	if allSellers != nil && len(allSellers) == 0 {
 		fmt.Println("allSellers is empty")
